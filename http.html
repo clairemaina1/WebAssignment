@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP - Web Fundamentals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+            display: inline-block;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 60px;
+            max-width: 800px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            text-align: justify;
+        }
+        img {
+            max-width: 300px;
+            height: auto;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="internet.html">Internet</a> |
+        <a href="www.html">WWW</a> |
+        <a href="ip-address.html">IP Address</a> |
+        <a href="dns.html">DNS</a> |
+        <a href="url-uri-urn.html">URL/URI/URN</a> |
+        <a href="http.html">HTTP</a> |
+        <a href="web-browser.html">Web Browser</a> |
+        <a href="web-server.html">Web Server</a>
+    </nav>
+
+    <main>
+        <h1>HTTP</h1>
+        <img src="images/http.svg" alt="HTTP Request and Response Diagram">
+        <p>HTTP (HyperText Transfer Protocol) is the request-response protocol used by the World Wide Web to enable communication between clients and servers. It defines how messages are formatted and transmitted over the Internet, establishing the rules for how data should be exchanged between a web client (such as a browser) and a web server. When you click a link, submit a form, or request a page in your browser, you are initiating an HTTP transaction. HTTP operates on top of TCP/IP (Transmission Control Protocol/Internet Protocol) and uses port 80 by default for unencrypted communications.</p>
+        <p>HTTP operates on a simple request-response model. A client, typically a web browser, sends an HTTP request to a server, specifying what resource it wants (the URL), what method to use (GET, POST, PUT, DELETE, etc.), and additional information in headers. The server receives this request, processes it, and sends back an HTTP response containing a status code (such as 200 for success or 404 for not found), response headers, and the requested resource content (such as HTML, images, or data). This straightforward model has proven to be highly effective and scalable for distributing content across the Internet.</p>
+        <p>A critical evolution of HTTP was the development of HTTPS (HTTP Secure), which adds a layer of encryption using SSL/TLS (Secure Sockets Layer/Transport Layer Security). HTTPS protects sensitive information from being intercepted or modified during transmission, making it essential for secure transactions such as banking, shopping, and password authentication. Today, HTTPS is considered the standard for web communication, and browsers actively discourage unencrypted HTTP connections. HTTP/2 and HTTP/3 are newer versions that improve performance and efficiency through features like multiplexing and header compression. Understanding HTTP is fundamental to web development and understanding how the modern web functions.</p>
+    </main>
+</body>
+</html>
