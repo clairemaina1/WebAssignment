@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#f3e5f5"/>
+  <rect x="30" y="40" width="140" height="120" fill="none" stroke="#6a1b9a" stroke-width="2" rx="5"/>
+  <rect x="40" y="50" width="60" height="40" fill="#6a1b9a" rx="3"/>
+  <text x="70" y="75" text-anchor="middle" font-size="9" fill="white" font-weight="bold">IPv4</text>
+  <rect x="100" y="50" width="60" height="40" fill="#6a1b9a" rx="3"/>
+  <text x="130" y="75" text-anchor="middle" font-size="9" fill="white" font-weight="bold">IPv6</text>
+  <text x="70" y="105" text-anchor="middle" font-size="10" fill="#6a1b9a">192.168.1.1</text>
+  <text x="130" y="105" text-anchor="middle" font-size="8" fill="#6a1b9a">2001:0db8</text>
+  <text x="130" y="115" text-anchor="middle" font-size="8" fill="#6a1b9a">85a3::8a2e</text>
+  <text x="100" y="145" text-anchor="middle" font-size="10" fill="#6a1b9a">Unique Device Identifier</text>
+  <text x="100" y="190" text-anchor="middle" font-size="12" fill="#6a1b9a">IP Address</text>
+</svg>

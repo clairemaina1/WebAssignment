@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#fff3e0"/>
+  <rect x="30" y="50" width="140" height="100" fill="none" stroke="#f57c00" stroke-width="2" rx="5"/>
+  <text x="100" y="70" text-anchor="middle" font-size="12" fill="#f57c00" font-weight="bold">HTTP Request</text>
+  <line x1="50" y1="85" x2="150" y2="85" stroke="#f57c00" stroke-width="1"/>
+  <text x="100" y="105" text-anchor="middle" font-size="10" fill="#f57c00">↓ Response ↑</text>
+  <line x1="50" y1="120" x2="150" y2="120" stroke="#f57c00" stroke-width="1"/>
+  <rect x="40" y="130" width="60" height="25" fill="#4caf50" rx="3"/>
+  <text x="70" y="148" text-anchor="middle" font-size="10" fill="white">Client</text>
+  <rect x="100" y="130" width="60" height="25" fill="#2196f3" rx="3"/>
+  <text x="130" y="148" text-anchor="middle" font-size="10" fill="white">Server</text>
+  <text x="100" y="190" text-anchor="middle" font-size="12" fill="#f57c00">HTTP Protocol</text>
+</svg>

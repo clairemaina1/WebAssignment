@@ -1,0 +1,17 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#ede7f6"/>
+  <rect x="40" y="40" width="120" height="35" fill="#3949ab" rx="3"/>
+  <circle cx="50" cy="57" r="4" fill="#4caf50"/>
+  <text x="100" y="62" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Web Server</text>
+  <rect x="40" y="90" width="120" height="35" fill="#3949ab" rx="3"/>
+  <circle cx="50" cy="107" r="4" fill="#4caf50"/>
+  <text x="100" y="112" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Web Server</text>
+  <rect x="40" y="140" width="120" height="35" fill="#3949ab" rx="3"/>
+  <circle cx="50" cy="157" r="4" fill="#4caf50"/>
+  <text x="100" y="162" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Web Server</text>
+  <line x1="70" y1="75" x2="70" y2="90" stroke="#3949ab" stroke-width="2"/>
+  <line x1="130" y1="75" x2="130" y2="90" stroke="#3949ab" stroke-width="2"/>
+  <line x1="70" y1="125" x2="70" y2="140" stroke="#3949ab" stroke-width="2"/>
+  <line x1="130" y1="125" x2="130" y2="140" stroke="#3949ab" stroke-width="2"/>
+  <text x="100" y="195" text-anchor="middle" font-size="12" fill="#3949ab">Web Server</text>
+</svg>

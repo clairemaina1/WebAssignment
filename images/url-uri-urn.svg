@@ -1,0 +1,11 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#e0f2f1"/>
+  <rect x="20" y="45" width="160" height="110" fill="none" stroke="#00695c" stroke-width="2" rx="5"/>
+  <rect x="30" y="55" width="140" height="25" fill="#00695c" rx="3"/>
+  <text x="100" y="72" text-anchor="middle" font-size="9" fill="white" font-weight="bold">URL (Locator)</text>
+  <text x="100" y="90" text-anchor="middle" font-size="8" fill="#00695c">https://example.com/page</text>
+  <rect x="30" y="105" width="140" height="20" fill="#00897b" rx="3"/>
+  <text x="100" y="118" text-anchor="middle" font-size="8" fill="white">URI (Identifier)</text>
+  <text x="100" y="138" text-anchor="middle" font-size="8" fill="#00695c">URN (Name): isbn:0451450523</text>
+  <text x="100" y="190" text-anchor="middle" font-size="12" fill="#00695c">URL/URI/URN</text>
+</svg>
