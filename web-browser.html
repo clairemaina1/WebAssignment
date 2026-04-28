@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Browser - Web Fundamentals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+            display: inline-block;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 60px;
+            max-width: 800px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            text-align: justify;
+        }
+        img {
+            max-width: 300px;
+            height: auto;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="internet.html">Internet</a> |
+        <a href="www.html">WWW</a> |
+        <a href="ip-address.html">IP Address</a> |
+        <a href="dns.html">DNS</a> |
+        <a href="url-uri-urn.html">URL/URI/URN</a> |
+        <a href="http.html">HTTP</a> |
+        <a href="web-browser.html">Web Browser</a> |
+        <a href="web-server.html">Web Server</a>
+    </nav>
+
+    <main>
+        <h1>Web Browser</h1>
+        <img src="images/web-browser.svg" alt="Web Browser Interface">
+        <p>A Web Browser is the client software application used to retrieve, display, and interact with web content available on the World Wide Web. It acts as the intermediary between users and web servers, handling the complex technical process of fetching, interpreting, and rendering web pages so that users can view them in a human-friendly format. Web browsers have become essential tools for Internet use, enabling access to everything from informational websites to email, social media, streaming services, and countless other web-based applications. Popular web browsers include Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, and Opera.</p>
+        <p>Web browsers perform several critical functions to deliver web content to users. When a user enters a URL in the address bar or clicks a link, the browser sends an HTTP request to the appropriate web server. The server responds with the requested content, typically HTML along with references to other resources like CSS stylesheets and JavaScript files. The browser then parses this HTML code and builds the Document Object Model (DOM), a hierarchical representation of the page's structure. It applies CSS styling rules to format the content visually and executes JavaScript code to add interactivity and dynamic behavior to the page.</p>
+        <p>Modern web browsers have evolved from simple document viewers into sophisticated platforms capable of running complex applications. They include features such as bookmarking for saving favorite sites, history tracking, password managers, automatic form filling, and extensions that add additional functionality. Browsers also handle security features like checking SSL certificates for secure HTTPS connections, blocking malicious websites, and protecting against various types of attacks. The browser's rendering engine is responsible for displaying content correctly, and different browsers use different engines (Chrome uses Blink, Firefox uses Gecko, Safari uses WebKit), which can result in slight variations in how pages appear across different browsers, requiring developers to test their websites on multiple platforms.</p>
+    </main>
+</body>
+</html>
