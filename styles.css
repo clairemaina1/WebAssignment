@@ -1,0 +1,126 @@
+/* Global Styles */
+:root {
+    --primary-color: #333;
+    --secondary-color: #666;
+    --accent-color: #0066cc;
+    --background-color: #f4f4f4;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--secondary-color);
+    background-color: var(--background-color);
+    padding: 20px;
+}
+
+/* Navigation Styles */
+nav {
+    background: linear-gradient(135deg, #333 0%, #555 100%);
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: var(--accent-color);
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 80px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    border-bottom: 3px solid var(--accent-color);
+    padding-bottom: 10px;
+}
+
+p {
+    color: var(--secondary-color);
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+footer p {
+    color: var(--white);
+    text-align: center;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        position: static;
+        margin-top: 0;
+    }
+    
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+    
+    main {
+        margin-top: 20px;
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+}
