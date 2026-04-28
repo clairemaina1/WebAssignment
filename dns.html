@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain Name & DNS - Web Fundamentals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+            display: inline-block;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 60px;
+            max-width: 800px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            text-align: justify;
+        }
+        img {
+            max-width: 300px;
+            height: auto;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="internet.html">Internet</a> |
+        <a href="www.html">WWW</a> |
+        <a href="ip-address.html">IP Address</a> |
+        <a href="dns.html">DNS</a> |
+        <a href="url-uri-urn.html">URL/URI/URN</a> |
+        <a href="http.html">HTTP</a> |
+        <a href="web-browser.html">Web Browser</a> |
+        <a href="web-server.html">Web Server</a>
+    </nav>
+
+    <main>
+        <h1>Domain Name & DNS</h1>
+        <img src="images/dns.svg" alt="Domain Name System Diagram">
+        <p>A Domain Name is an alphanumeric representation of an IP address, designed to be more memorable and user-friendly than the numerical format. For example, instead of remembering and typing the numeric IP address 142.251.41.4 to access Facebook, you can simply type facebook.com. Domain names follow a hierarchical structure, with the top-level domain (TLD) at the end, such as .com, .org, .edu, or .gov, followed by the domain name itself. This naming system makes the Internet much more accessible and usable for everyday people.</p>
+        <p>DNS (Domain Name System) is the hierarchical naming system that translates human-readable domain names into their corresponding IP addresses. When you type a URL into your browser, the DNS system performs a lookup to convert the domain name to the appropriate IP address so your computer can locate and communicate with the correct server. The DNS operates as a distributed database of millions of name servers around the world, working together to maintain and resolve domain names. This decentralized approach ensures reliability, redundancy, and fast performance across the globe.</p>
+        <p>The DNS resolution process involves multiple steps and different types of servers. When you enter a domain name, your computer first queries a recursive resolver, typically provided by your ISP or a public service like Google DNS. The recursive resolver then queries root nameservers, which direct it to the appropriate top-level domain (TLD) nameserver, which in turn directs it to the authoritative nameserver for the specific domain. Finally, the authoritative nameserver returns the IP address associated with the domain name. This elegant system has become critical infrastructure for the modern Internet, handling billions of queries daily and enabling the seamless web experience we depend on.</p>
+    </main>
+</body>
+</html>
